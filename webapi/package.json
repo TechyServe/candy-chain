@@ -1,0 +1,18 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "webapi",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "fabric-ca-client": "unstable",
+    "fabric-client": "unstable",
+    "grpc": "^1.6.0",
+    "nodemon": "^1.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

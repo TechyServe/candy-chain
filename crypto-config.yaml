@@ -10,7 +10,7 @@ OrdererOrgs:
   # ---------------------------------------------------------------------------
   # Orderer
   # ---------------------------------------------------------------------------
-  - Name: C.;andyOrderer
+  - Name: CandyOrderer
     Domain: candyorderer.com
     # ---------------------------------------------------------------------------
     # "Specs" - See PeerOrgs below for complete description

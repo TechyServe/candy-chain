@@ -17,7 +17,7 @@ services:
       - FABRIC_CA_SERVER_CA_CERTFILE=/etc/hyperledger/fabric-ca-server-config/ca.willy.wonka.com-cert.pem
       - FABRIC_CA_SERVER_CA_KEYFILE=/etc/hyperledger/fabric-ca-server-config/1217a76dec380f800edb9bd64a67e75b0dd47a1e3686ca142337a6a7ff5bbeb2_sk
     ports:
-      - "7054:7054"
+      - 7054:7054
     command: sh -c 'fabric-ca-server start -b admin:adminpw -d'
     volumes:
       - ./crypto-config/peerOrganizations/willy.wonka.com/ca/:/etc/hyperledger/fabric-ca-server-config

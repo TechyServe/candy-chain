@@ -1,0 +1,7 @@
+webapi/node_modules/
+crypto-config/
+cryptogen
+configtxgen
+config/channel.tx
+config/genesis.block
+webapi/package-lock.json
